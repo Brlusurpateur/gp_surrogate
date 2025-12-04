@@ -7,3 +7,11 @@ __pycache__/
 
 .DS_Store
 .ipynb_checkpoints/
+export_good_iteration.py
+gp_driver.py
+surrogate_modeling.py
+scalping_backtest_engine.py
+export_good_iteration.py
+gp_driver.py
+surrogate_modeling.py
+scalping_backtest_engine.py
