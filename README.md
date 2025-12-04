@@ -9,7 +9,7 @@ from data ingestion and backtesting to Bayesian optimization, scoring, portfolio
 
 ---
 
-## 🔍 High-Level Overview
+## High-Level Overview
 
 This project implements an end-to-end workflow:
 
@@ -40,7 +40,7 @@ This project implements an end-to-end workflow:
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - **End-to-end research pipeline** (Python + SQLite) from historical data to live-like execution.
 - **Realistic backtesting**:
@@ -68,7 +68,7 @@ This project implements an end-to-end workflow:
 
 ---
 
-## 🧱 Architecture
+## Architecture
 
 At a high level, the project is split into the following components:
 
@@ -109,7 +109,7 @@ At a high level, the project is split into the following components:
 
 ---
 
-## 🗄️ Data Model
+## Data Model
 
 All persistent data is stored in **SQLite** databases:
 
@@ -128,7 +128,7 @@ The schema is **migration-friendly**: new columns or tables can be added without
 
 ---
 
-## 🤖 AutoML Pipeline
+## AutoML Pipeline
 
 The AutoML loop works roughly as follows:
 
@@ -166,7 +166,7 @@ The AutoML loop works roughly as follows:
 
 ---
 
-## 🛡️ Risk & Execution Modeling
+## Risk & Execution Modeling
 
 Risk management is implemented at multiple layers:
 
@@ -189,7 +189,7 @@ Risk management is implemented at multiple layers:
 
 ---
 
-## 📊 Dashboard
+## Dashboard
 
 The **Streamlit dashboard** connects to the KPI SQLite database and provides:
 
@@ -202,7 +202,7 @@ This is the main tool to inspect and present the results to humans (including no
 
 ---
 
-## 🚀 Quickstart (high-level)
+## Quickstart (high-level)
 
 > The exact commands depend on how you structure the repository; below is an indicative workflow.
 
