@@ -41,10 +41,11 @@ Version : Juin 2025
 """
 
 # === Imports fondamentaux ===
+import os
+import sys
 import warnings
 import subprocess
 import json
-import os
 import sqlite3
 import pandas as pd
 import math
